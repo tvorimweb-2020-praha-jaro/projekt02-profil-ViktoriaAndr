@@ -1,0 +1,128 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+ BARVY
+ czechitas  #b92e81
+ pozadi     #bdc3c7
+ tmava      #31363b
+ delitka    #3f464d
+ portfolio  #e74c3c
+ facebook   #3b5998
+ twitter    #1da1f2
+*/
+
+
+body {
+    background-color: #bdc3c7;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.obsah {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 10px;
+
+}
+
+.obsah p {
+    color:#bdc3c7;
+}
+
+.odkazy {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.foto {
+    float:inherit
+    margin: 0 25px;
+    width: 250px;
+    position: relative;
+    left: -20px;
+    right: 10px;
+    bottom: 20px;
+}
+
+.logo {
+    display: block;
+    float: bottom;
+    position: relative;
+    top: -50px;
+    bottom: -100px;
+    left: 170px;
+    right: 40px;
+}
+
+.odkazy li {
+    display: inline-block;
+}
+
+.odkazy {
+    text-transform: uppercase;
+}
+
+.odkazy a {
+    color: #bdc3c7;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block
+}
+
+.portfolio a:hover {
+    background-color: #e74c3c;
+}
+
+.portfolio {
+    outline-width: inherit;
+    border-top: whitesmoke;
+    border-top-style:solid;
+    border-top-width: thin;
+    width: 250px;
+    position: relative;
+    right: 60px;
+    top: 95.8px;
+}
+
+.facebook {
+    outline-width: inherit;
+    border-top: whitesmoke;
+    border-top-style:solid;
+    border-top-width: thin;
+    position: relative;
+    top: 95.8px;
+    right:60px;
+    width: 125px;
+}
+
+.twitter {
+    position: relative;
+    top: 35.8px;
+    left:65px;
+    width: 125px;
+    border-top: whitesmoke;
+    border-top-style:solid;
+    border-top-width: thin
+}
+.facebook a:hover {
+    background-color: #3b5998;
+}
+
+.twitter a:hover {
+    background-color: #1da1f2;
+}
+
+.profil {
+    position: static;
+    background-color: #31363b;
+    box-sizing: border-box;
+    width: 250px;
+    padding: 20px; 
+    margin: 60px 90px;
+    box-shadow: 3px 5px 3px 3px grey;
+}
